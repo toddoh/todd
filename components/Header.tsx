@@ -1,26 +1,41 @@
 import styled from "styled-components";
+import { useRouter } from "next/router";
 
-import { Heading1, Heading2, Heading3 } from "./HeadingStyles";
+import { Heading2, Heading3, Subheading } from "../styles/HeadingStyles";
+import { RegularTextBaseLine } from "../styles/TextStyles";
 
 const HeaderContent = styled.div`
   position: relative;
   margin: 0 5vw;
-  padding: 5vw 40vw 5vw 0;
+  padding: 5vw 40vw 0 0;
   display: flex;
   flex-flow: column;
 `;
 
-export const Header = () => {
+export const Header = ({ miniHeader }: { miniHeader: boolean }) => {
+  const router = useRouter();
+
   return (
     <HeaderContent>
-      <Heading1 style={{ marginBottom: "35px" }}>Hi, I'm Todd!</Heading1>
-      <Heading2>
-        A web engineer with multi-year experiences in leading engineering
-        initiatives for web engineering and web product development. Always
-        finding the right way and practices to lead design and engineering
-        process for a user interface/web product that is user-centric and
-        scalable.
-      </Heading2>
+      {miniHeader ? (
+        <>
+          <Subheading
+            style={{ marginBottom: "5px" }}
+            onClick={() => router.back()}
+          >
+            ← Todd Oh
+          </Subheading>
+        </>
+      ) : (
+        <>
+          <Heading2 style={{ marginBottom: "15px" }}>Todd Oh</Heading2>
+          <Heading3>
+            A web engineer/tech lead with multi-year experiences in leading
+            engineering initiatives for web engineering and web product
+            development.
+          </Heading3>
+        </>
+      )}
     </HeaderContent>
   );
 };

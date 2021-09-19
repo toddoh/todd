@@ -1,9 +1,8 @@
-import { useRouter } from "next/router";
 import Head from "next/head";
 import styled from "styled-components";
 import fs from "fs";
 import path from "path";
-import { GetStaticPaths, GetStaticProps } from "next";
+import { GetStaticPaths } from "next";
 import { MDXProvider } from "@mdx-js/react";
 import MDX from "@mdx-js/runtime";
 
@@ -53,14 +52,20 @@ const Article = ({ mdx }: { mdx: string }) => {
 };
 
 export const getStaticProps = async (props) => {
-  const folderPath = path.join(process.cwd(), "content");
-  const filePath = path.join(folderPath, `${props.params.articleSlug}.mdx`);
-  const source = fs.readFileSync(filePath);
-  return {
-    props: {
-      mdx: source.toString(),
-    },
-  };
+  try {
+    const filePath = `content/${props.params.articleSlug}.mdx`;
+    const source = fs.readFileSync(filePath);
+
+    return {
+      props: {
+        mdx: source.toString(),
+      },
+    };
+  } catch (e) {
+    return {
+      notFound: true,
+    };
+  }
 };
 
 export const getStaticPaths: GetStaticPaths = async () => {

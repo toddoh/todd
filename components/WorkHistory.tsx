@@ -2,10 +2,9 @@ import styled from "styled-components";
 
 const Content = styled.div`
   position: relative;
-  margin: 0 45vw 0 5vw;
-  padding: 3vw 0;
   display: flex;
   flex-flow: column;
+  padding: 0 0 45px 0;
 `;
 
 const WorkplaceName = styled.span`

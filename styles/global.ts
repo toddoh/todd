@@ -11,6 +11,9 @@ body {
     sans-serif;
     -webkit-font-smoothing: antialiased;
     font-size: 1em;
+
+  --text-color-main: #00192f;
+  --text-color-light: #00192f9c;
 }
 
 * {

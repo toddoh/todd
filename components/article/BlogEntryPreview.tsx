@@ -46,7 +46,7 @@ const BlogEntryPreview = ({ articleList }: { articleList: Array<object> }) => {
           timestamp: number;
           content: string;
         }) => (
-          <Articles>
+          <Articles key={article.id}>
             <Link href={`/article/${article.id}`}>
               <a>
                 <ArticleItem key={article.id}>{article.title}</ArticleItem>

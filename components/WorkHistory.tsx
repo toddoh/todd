@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Link from "next/link";
 
 const Content = styled.div`
   position: relative;
@@ -8,8 +9,12 @@ const Content = styled.div`
 `;
 
 const WorkplaceName = styled.span`
-  font-size: 1.2em;
+  font-size: 1.25em;
   font-weight: 600;
+
+  a {
+    color: var(--text-color-main);
+  }
 `;
 
 const WorkplaceTimePeriod = styled.span`
@@ -35,6 +40,7 @@ export const WorkHistory = ({
   workplace: {
     id: string;
     name: string;
+    url: string;
     title: string;
     period: string;
     location: string;
@@ -45,7 +51,15 @@ export const WorkHistory = ({
     <Content key={workplace.id}>
       <div style={{ display: "flex", flexFlow: "column" }}>
         <WorkplaceName>{workplace.title}</WorkplaceName>
-        <WorkplaceName>{workplace.name}</WorkplaceName>
+        <WorkplaceName>
+          {workplace.url ? (
+            <Link href={workplace.url} passHref={true}>
+              <a>{workplace.name}</a>
+            </Link>
+          ) : (
+            workplace.name
+          )}
+        </WorkplaceName>
       </div>
       <WorkplaceTimePeriod>
         {workplace.location}, {workplace.period}

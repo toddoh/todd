@@ -1,13 +1,12 @@
 import styled from "styled-components";
 import { useRouter } from "next/router";
 
-import { Heading2, Heading3, Subheading } from "../styles/HeadingStyles";
-import { RegularTextBaseLine } from "../styles/TextStyles";
+import { Heading3, Heading2, Subheading } from "../styles/HeadingStyles";
 
 const HeaderContent = styled.div`
   position: relative;
   margin: 0 5vw;
-  padding: 5vw 40vw 0 0;
+  padding: 5vw 0 0 0;
   display: flex;
   flex-flow: column;
 `;
@@ -23,17 +22,19 @@ export const Header = ({ miniHeader }: { miniHeader: boolean }) => {
             style={{ marginBottom: "5px" }}
             onClick={() => router.back()}
           >
-            ← Todd Oh
+            ← Todd Stonefield-Oh
           </Subheading>
         </>
       ) : (
         <>
-          <Heading2 style={{ marginBottom: "15px" }}>Todd Oh</Heading2>
-          <Heading3>
-            A web engineer/tech lead with multi-year experiences in leading
-            engineering initiatives for web engineering and web product
-            development.
+          <Heading3 style={{ marginBottom: "5px" }}>
+            Todd Stonefield-Oh
           </Heading3>
+          <Heading2>
+            Formerly a tech startup founder, a senior software engineer with
+            experiences in leading engineering initiatives for web engineering
+            with an understanding of design and product.
+          </Heading2>
         </>
       )}
     </HeaderContent>

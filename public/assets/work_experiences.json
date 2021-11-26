@@ -1,28 +1,41 @@
 {
     "experiences": [
     {
-      "id": "aetna-cvs-2020",
-      "name": "Aetna, a CVS Health company",
-      "title": "Senior Web Engineer",
-      "period": "Jul 2020 — Present",
+      "id": "alloy-2021",
+      "name": "Alloy (First Mile Group, Inc.)",
+      "url": "https://alloy.com/",
+      "title": "Senior Software Engineer, Frontend",
+      "period": "Oct 2021 - Present",
       "location": "New York, NY",
       "items": [
-        "Leading web engineering team in charge of self-servicing API backend services and web front-end application.",
-        "Led the major front-end development of migrating the legacy web front-end into a redesigned modern React front-end architecture, rolling out enterprise wide in less than 1 year to replace the existing data scientist workflow. (Led engineering initiative/architecture and developed 95% of the new code)",
-        "Leading self-servicing API service (Node.js) architecture redesign onto microservices and cloud-native design.",
-        "Leading web engineering initiatives for building design system components that are framework-agnostic.",
+        "A senior front-end engineer in the “Onboarding” Dashboard Product team."
+      ]
+    },
+    {
+      "id": "aetna-cvs-2020",
+      "name": "Aetna, Analytics & Behavior Change",
+      "url": "https://aetna.com/",
+      "title": "Senior Web Engineer",
+      "period": "Jul 2020 — Oct 2020",
+      "location": "New York, NY",
+      "items": [
+        "Led the web engineering team and engineering initiatives for self-service API backend services and web front-end application.",
+        "Led the major front-end development of migrating the legacy web front-end and outdated architecture into a redesigned modern React front-end SPA architecture. (Led engineering initiative/architecture and developed most of the new code)",
+        "Led self-servicing API service (Node.js) refactor design.",
+        "Established web engineering patterns and practices.",
         "Leading web engineering patterns and practices on a high-level for the team.",
         "Worked with a product manager for conducting customer UX research for building user personas, UX initiatives/workflow.",
         "Identified feature/experience gaps and led front-end UI/UX development for features.",
-        "Custom-developed Journey flow builder with freeform canvas drag-and-draw experience and automatic multi-flow routing synced with complex behavior model of journey data processor",
-        "Custom-developed JSON data processing engine in browser with dynamic schema templating, template object generation, data object abstraction, dynamic configuration review/evaluation logic with 500% faster speed than the legacy web front-end.",
-        "Custom-developed dynamic tabular renderer.",
-        "Custom-developed UI components on top of design system and shared multi-depth layer rendering controllers that consists of context menu, popover, modal, and window with dynamic depth and layout positioning."
+        "Designed and developed a UI core processing engine that performs schema model composition, custom model abstraction, delta chunk rendering and dispatch using tree address structure, dynamic quality evaluation/rule-driven suggestion post-processing pipeline — avg. 500% faster on visualizing/rendering JSON configuration data of 40K lines. (JavaScript/Web Workers)",
+        "Designed and developed a Journey Flow Builder with free-form canvas, drag-and-draw experience, automatic step flow routing with dynamic sequence index assignment, automatic flow error detection/correction, step flow route aggregation and route branching. (React, redux, vanilla JavaScript)",
+        "Designed and developed dynamic object renderers with automatic layout composition based on object type and module characteristics. (React)",
+        "Designed and developed an in-house UI components based on design system and an overlay rendering component/context that consists of context menu, popover, modal, and window with dynamic depth and layout positioning. (React)"
       ]
     },
     {
       "id": "rally-2019",
       "name": "Rally Rd. (RSE Markets)",
+      "url": "https://rallyrd.com/",
       "title": "Software Engineer (Front-end/Full-stack)",
       "period": "Oct 2019 — Jul 2020",
       "location": "New York, NY",
@@ -37,6 +50,7 @@
     {
       "id": "toastlabs-2015",
       "name": "Toast Labs",
+      "url": "",
       "title": "Full-stack Lead/Founder",
       "period": "Apr 2015 — Jul 2017",
       "location": "Palo Alto, CA",

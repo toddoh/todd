@@ -4,12 +4,18 @@ import { FileArrowDown, PaperPlaneTilt, LinkedinLogo } from "phosphor-react";
 
 const Content = styled.div`
   position: relative;
-  margin: 0 45vw 0 5vw;
+  margin: 0 0 0 5vw;
   padding: 30px 0;
   width: fill-available;
   align-content: flex-start;
   display: flex;
+  flex-wrap: wrap;
   grid-column-gap: 20px;
+  font-family: "Outfit";
+
+  a {
+    color: var(--text-color-light);
+  }
 `;
 
 const ContactType = styled.div`
@@ -27,25 +33,31 @@ export const Contact = () => {
   return (
     <Content>
       <Link
-        href="https://www.dropbox.com/s/ciyhxa5a2o8hrsf/2021_SeungyunToddOh_Resume.pdf?dl=0"
+        href="https://www.dropbox.com/s/37y5geycl9u6ob1/2022_SeungyunToddOh.pdf?dl=0"
         passHref={true}
       >
-        <ContactType>
-          <FileArrowDown size={24} />
-          <span>View Resume</span>
-        </ContactType>
+        <a>
+          <ContactType>
+            <FileArrowDown size={24} />
+            <span>Resume</span>
+          </ContactType>
+        </a>
       </Link>
       <Link href="mailto:toddstonefieldoh@gmail.com" passHref={true}>
-        <ContactType>
-          <PaperPlaneTilt size={24} />
-          <span>Email me</span>
-        </ContactType>
+        <a>
+          <ContactType>
+            <PaperPlaneTilt size={24} />
+            <span>Email</span>
+          </ContactType>
+        </a>
       </Link>
       <Link href="https://linkedin.com/in/toddstonefieldoh" passHref={true}>
-        <ContactType>
-          <LinkedinLogo size={24} />
-          <span>LinkedIn</span>
-        </ContactType>
+        <a>
+          <ContactType>
+            <LinkedinLogo size={24} />
+            <span>LinkedIn</span>
+          </ContactType>
+        </a>
       </Link>
     </Content>
   );

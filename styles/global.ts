@@ -4,21 +4,27 @@ export const GlobalStyle = createGlobalStyle`
 html,
 body {
   padding: 0;
-  margin: 0;
-  background: #cce7ff;
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+  margin: 0 10vw;
+  background: #fff;
+  font-family: 'Crimson Pro', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
     Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
     sans-serif;
     -webkit-font-smoothing: antialiased;
     font-size: 1em;
 
-  --text-color-main: #00192f;
-  --text-color-light: #00192f9c;
+  --text-color-main: #000;
+  --text-color-light: #7a7a7a;
 }
 
 * {
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 1023px) {
+  html, body {
+    margin: 0 1vw;
+  }
+} 
 `;
 
 export default GlobalStyle;

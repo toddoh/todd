@@ -19,7 +19,7 @@ const Container = styled.div`
 const WorkExpContainer = styled.div`
   position: relative;
   margin: 0 5vw;
-  padding: 5vw 0 5vw 0;
+  padding: 3vw 0 3vw 0;
   display: flex;
   flex-flow: column;
 `;

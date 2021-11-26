@@ -4,7 +4,7 @@ import { FileArrowDown, PaperPlaneTilt, LinkedinLogo } from "phosphor-react";
 
 const Content = styled.div`
   position: relative;
-  margin: 0 0 0 5vw;
+  margin: 0 5vw;
   padding: 30px 0;
   width: fill-available;
   align-content: flex-start;

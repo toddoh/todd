@@ -16,10 +16,10 @@ const Container = styled.div`
   justify-content: center;
 `;
 
-const WorkExpContainer = styled.div`
+const ExperiencesContainer = styled.div`
   position: relative;
   margin: 0 5vw;
-  padding: 5vw 0 5vw 0;
+  padding: 3vw 0 3vw 0;
   display: flex;
   flex-flow: column;
 `;
@@ -42,7 +42,7 @@ function Home({ workExperiences }: { workExperiences: Array<object> }) {
       <Header miniHeader={false} />
       <Contact />
 
-      <WorkExpContainer>
+      <ExperiencesContainer>
         <BoldStrongRegTitle style={{ marginBottom: "15px" }}>
           Experiences
         </BoldStrongRegTitle>
@@ -60,7 +60,7 @@ function Home({ workExperiences }: { workExperiences: Array<object> }) {
             <WorkHistory key={place.id} workplace={place} />
           )
         )}
-      </WorkExpContainer>
+      </ExperiencesContainer>
     </Container>
   );
 }

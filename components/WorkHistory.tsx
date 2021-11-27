@@ -53,7 +53,7 @@ export const WorkHistory = ({
         <WorkplaceName>{workplace.title}</WorkplaceName>
         <WorkplaceName>
           {workplace.url ? (
-            <Link href={workplace.url} passHref={true}>
+            <Link href={workplace.url}>
               <a>{workplace.name}</a>
             </Link>
           ) : (

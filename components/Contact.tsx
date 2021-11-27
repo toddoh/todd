@@ -9,7 +9,6 @@ const Content = styled.div`
   width: fill-available;
   align-content: flex-start;
   display: flex;
-  flex-wrap: wrap;
   grid-column-gap: 20px;
   font-family: "Outfit";
 

@@ -11,7 +11,9 @@ body {
     sans-serif;
     -webkit-font-smoothing: antialiased;
     font-size: 1em;
+}
 
+:root {
   --text-color-main: #000;
   --text-color-light: #7a7a7a;
 }

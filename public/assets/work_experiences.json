@@ -2,21 +2,25 @@
     "experiences": [
     {
       "id": "alloy-2021",
-      "name": "Alloy (First Mile Group, Inc.)",
-      "url": "https://alloy.com/",
-      "title": "Senior Software Engineer, Frontend",
+      "name": "Alloy",
+      "url": "https://www.alloy.com/",
+      "title": "Senior Software Engineer",
       "period": "Oct 2021 - Present",
       "location": "New York, NY",
       "items": [
-        "A senior front-end engineer in the “Onboarding” Dashboard Product team."
+        "Working in Policy Experience/Dashboard team",
+        "Leading Front-end Service Architecture work",
+        "Led Front-end build working group, delivered the first stage of pipeline overhaul leading to build time reduction achievements (up to 50%), runtime enhancements.",
+        "Facilitated Redux working group and delivered the first spec pattern and implementation.",
+        "Implemented a new modern icon renderer/transpilation pipeline with an automatic view box adjustment."
       ]
     },
     {
       "id": "aetna-cvs-2020",
       "name": "Aetna, Analytics & Behavior Change",
-      "url": "https://aetna.com/",
+      "url": "https://www.aetna.com/",
       "title": "Senior Web Engineer",
-      "period": "Jul 2020 — Oct 2020",
+      "period": "Jul 2020 — Oct 2021",
       "location": "New York, NY",
       "items": [
         "Led the web engineering team and engineering initiatives for self-service API backend services and web front-end application.",
@@ -26,10 +30,10 @@
         "Leading web engineering patterns and practices on a high-level for the team.",
         "Worked with a product manager for conducting customer UX research for building user personas, UX initiatives/workflow.",
         "Identified feature/experience gaps and led front-end UI/UX development for features.",
-        "Designed and developed a UI core processing engine that performs schema model composition, custom model abstraction, delta chunk rendering and dispatch using tree address structure, dynamic quality evaluation/rule-driven suggestion post-processing pipeline — avg. 500% faster on visualizing/rendering JSON configuration data of 40K lines. (JavaScript/Web Workers)",
-        "Designed and developed a Journey Flow Builder with free-form canvas, drag-and-draw experience, automatic step flow routing with dynamic sequence index assignment, automatic flow error detection/correction, step flow route aggregation and route branching. (React, redux, vanilla JavaScript)",
-        "Designed and developed dynamic object renderers with automatic layout composition based on object type and module characteristics. (React)",
-        "Designed and developed an in-house UI components based on design system and an overlay rendering component/context that consists of context menu, popover, modal, and window with dynamic depth and layout positioning. (React)"
+        "Designed and developed a UI core processing engine that performs schema model composition, custom model abstraction, delta chunk rendering and dispatch using tree address structure, dynamic quality evaluation/rule-driven suggestion post-processing pipeline — avg. 500% faster on visualizing/rendering JSON configuration data of 40K lines.",
+        "Designed and developed a Journey Flow Builder with free-form canvas, drag-and-draw experience, automatic step flow routing with dynamic sequence index assignment, automatic flow error detection/correction, step flow route aggregation and route branching.",
+        "Designed and developed dynamic object renderers with automatic layout composition based on object type and module characteristics.",
+        "Designed and developed an in-house UI components based on design system and an overlay rendering component/context that consists of context menu, popover, modal, and window with dynamic depth and layout positioning."
       ]
     },
     {

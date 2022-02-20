@@ -10,7 +10,6 @@ const Content = styled.div`
   align-content: flex-start;
   display: flex;
   grid-column-gap: 20px;
-  font-family: "Outfit";
 
   a {
     color: var(--text-color-light);

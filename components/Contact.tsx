@@ -31,7 +31,7 @@ export const Contact = () => {
   return (
     <Content>
       <Link
-        href="https://www.dropbox.com/s/37y5geycl9u6ob1/2022_SeungyunToddOh.pdf?dl=0"
+        href="https://www.dropbox.com/s/8lxiud0gnkzn70u/2022_SeungyunToddOh.pdf?dl=0"
         passHref={true}
       >
         <a>

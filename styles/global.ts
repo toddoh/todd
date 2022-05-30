@@ -6,7 +6,7 @@ body {
   padding: 0;
   margin: 0 10vw;
   background: #fff;
-  font-family: 'Readex Pro', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
     Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
     sans-serif;
     -webkit-font-smoothing: antialiased;

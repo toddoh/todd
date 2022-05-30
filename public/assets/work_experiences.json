@@ -8,10 +8,13 @@
       "period": "Oct 2021 - Present",
       "location": "New York, NY",
       "items": [
-        "Working in Policy Experience/Dashboard team",
-        "Leading Front-end Service Architecture work",
-        "Led Front-end build working group, delivered the first stage of pipeline overhaul leading to build time reduction achievements (up to 50%), runtime enhancements.",
-        "Facilitated Redux working group and delivered the first spec pattern and implementation.",
+        "Working in Core Platform team focusing on front-end architecture. Previously in Onboarding Product team.",
+        "Proposed/Tech lead of the front-end Modern Migration initiative. (Q2 '22 Initiative)",
+        "Co-proposed/Tech lead of the front-end Service Architecture initiative. The Phase 1 delivery decoupled the front-end compilation, asset injection, and deployment from the back-end service, while continuing to support the hybrid architecture during the aforementioned modern migration initiative.",
+        "Proposed and facilitated the strategy discussion on north star goal/priorities of the front-end.",
+        "Led the front-end build working group, and delivered the pipeline overhaul leading to build time reduction achievements, and runtime enhancements.",
+        "Facilitated the Redux working group — delivered the first spec pattern and implementation.",
+        "Implemented a new overlay layer renderer that simplifies logic execution flows between multiple components.",
         "Implemented a new modern icon renderer/transpilation pipeline with an automatic view box adjustment."
       ]
     },
@@ -55,7 +58,7 @@
       "id": "toastlabs-2015",
       "name": "Toast Labs",
       "url": "",
-      "title": "Full-stack Lead/Founder",
+      "title": "Engineering Lead/Founder",
       "period": "Apr 2015 — Jul 2017",
       "location": "Palo Alto, CA",
       "items": [

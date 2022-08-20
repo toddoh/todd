@@ -1,0 +1,16 @@
+{
+    "recents": [
+    {
+      "id": "fintechdevcon-2022",
+      "name": "fintech_devcon 2022",
+      "url": "https://fintechdevcon.io/speakers/todd-stonefieldoh/",
+      "title": "Speaker, Roadblock talk",
+      "period": "August 2022",
+      "location": "Denver, CO",
+      "items": [
+        "Session Title: Migrating onto a modern front-end with holistic architecture thinking",
+        "Session Abstract: In this talk, you will hear the recent architecture migration of Alloy's front-end to be a dedicated service, how we executed with minimal disruption, and why that was possible. Often the perception of a front-end architecture is about what's visible on the app surface, but it can expand beyond onto infrastructure when building mission-critical front-end. Also, it involves a delicate architecture design and approach, and not seeing through those aspects early on could lead to a less cohesive strategy for migrating onto a resilient and modern front-end. Learn about how Alloy planned, researched, and executing migration with the mindset of incremental change and holistic thinking on our stack, and what could have worked better."
+      ]
+    }
+  ]
+}

@@ -8,13 +8,13 @@
       "period": "Oct 2021 - Present",
       "location": "New York, NY",
       "items": [
-        "Working in Core Platform team focusing on front-end architecture. Previously in Onboarding Product team.",
-        "Proposed/Tech lead of the front-end Modern Migration initiative. (Q2 '22 Initiative)",
-        "Co-proposed/Tech lead of the front-end Service Architecture initiative. The Phase 1 delivery decoupled the front-end compilation, asset injection, and deployment from the back-end service, while continuing to support the hybrid architecture during the aforementioned modern migration initiative.",
-        "Proposed and facilitated the strategy discussion on north star goal/priorities of the front-end.",
-        "Led the front-end build working group, and delivered the pipeline overhaul leading to build time reduction achievements, and runtime enhancements.",
+        "Working in Core Platform team focusing on front-end architecture.",
+        "Tech lead of the Front-end Modern Migration initiative. Delivered 90% faster Settings experience in a single quarter (Q2 '22) with the migration of over legacy 30+ components.",
+        "Tech lead of the Front-end Service Architecture initiative. The Phase 1 delivery decoupled the front-end compilation and deployment from the back-end service while continuing to support the hybrid architecture.",
+        "Proposed and facilitated the strategic discussion on the north star goal/principles of the front-end, focused on reducing bottlenecks and inefficiencies in the decision-making process.",
+        "Primarily maintained the front-end pipeline and led the front-end build working group. Delivered the pipeline overhaul leading to build time reduction achievements, and runtime enhancements. (Up to 80%)",
         "Facilitated the Redux working group — delivered the first spec pattern and implementation.",
-        "Implemented a new overlay layer renderer that simplifies logic execution flows between multiple components.",
+        "Working closely with Product Design/Design Engineer to shape up the streamlined user experience by consulting component development and identifying front-end architecture requirements for product design needs.",
         "Implemented a new modern icon renderer/transpilation pipeline with an automatic view box adjustment."
       ]
     },

@@ -31,9 +31,7 @@ export const Header = ({ miniHeader }: { miniHeader: boolean }) => {
             Todd Stonefield-Oh
           </Heading3>
           <Heading2>
-            Formerly a tech startup founder, a senior software engineer with
-            experiences in leading engineering initiatives for web engineering
-            with an understanding of design and product.
+            Formerly a tech startup founder, a senior software engineer with experience in leading engineering initiatives with an understanding of user experience and financial technology.
           </Heading2>
         </>
       )}

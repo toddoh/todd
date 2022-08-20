@@ -8,6 +8,7 @@ import Contact from "../components/Contact";
 import { BoldStrongRegTitle } from "../styles/TextStyles";
 
 import workExperiencesData from "../public/assets/work_experiences.json";
+import recentsData from "../public/assets/misc_recents.json";
 
 const Container = styled.div`
   position: relative;
@@ -24,7 +25,13 @@ const ExperiencesContainer = styled.div`
   flex-flow: column;
 `;
 
-function Home({ workExperiences }: { workExperiences: Array<object> }) {
+function Home({
+  workExperiences,
+  recentUpdates,
+}: {
+  workExperiences: Array<object>,
+  recentUpdates: Array<object>,
+}) {
   return (
     <Container>
       <Head>
@@ -32,15 +39,32 @@ function Home({ workExperiences }: { workExperiences: Array<object> }) {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
-          rel="stylesheet"
-        />
+        <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
       </Head>
 
       <GlobalStyle />
       <Header miniHeader={false} />
       <Contact />
+
+      <ExperiencesContainer>
+        <BoldStrongRegTitle style={{ marginBottom: "15px" }}>
+          Recent Updates
+        </BoldStrongRegTitle>
+
+        {recentUpdates.map(
+          (place: {
+            id: string;
+            name: string;
+            url: string;
+            title: string;
+            period: string;
+            location: string;
+            items: Array<string>;
+          }) => (
+            <WorkHistory key={place.id} workplace={place} />
+          )
+        )}
+      </ExperiencesContainer>
 
       <ExperiencesContainer>
         <BoldStrongRegTitle style={{ marginBottom: "15px" }}>
@@ -69,6 +93,7 @@ export const getStaticProps = async () => {
   return {
     props: {
       workExperiences: workExperiencesData.experiences,
+      recentUpdates: recentsData.recents,
     },
   };
 };

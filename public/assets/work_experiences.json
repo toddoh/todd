@@ -16,87 +16,87 @@
           "Primary speaker at fintech_devcon 2022 for a Roadblock session talk, Migrating onto a modern front-end with holistic architecture thinking."
         ]
       },
-    {
-      "id": "alloy-2021",
-      "name": "Alloy",
-      "url": "https://www.alloy.com/",
-      "title": "Senior Software Engineer",
-      "period": "Oct 2021 - Sep 2022",
-      "location": "New York, NY",
-      "items": [
-        "Working in Core Platform team, leading efforts in enhancing web dashboard service and its front-end architecture/UX.",
-        "Working closely with Product Design to shape the streamlined UX by consulting component development and identifying front-end architecture requirements for product design needs.",
-        "Tech lead of the Front-end Modern Migration initiative. Delivered 90% faster Settings experience in a single quarter (Q2 '22) with the migration of over 30 legacy components.",
-        "Identified and mitigated potential blockers and items causing higher lead time/full cycle time using a mix of qualitative signals such as identifying the correct orders of execution, and quantitative weekly cycle trends.",
-        "Tech lead of the Front-end Service Architecture initiative. It decoupled the front-end compilation and deployment from the back-end service while continuing to support the hybrid architecture.",
-        "Primarily maintained the front-end pipeline and led the front-end build working group. Delivered the pipeline overhaul leading to build time reduction achievements, and runtime enhancements. (Up to 80%)"
-      ]
-    },
-    {
-      "id": "aetna-cvs-2020",
-      "name": "Aetna, Analytics & Behavior Change",
-      "url": "https://www.aetna.com/",
-      "title": "Senior Web Engineer",
-      "period": "Jul 2020 — Oct 2021",
-      "location": "New York, NY",
-      "items": [
-        "Led the web engineering team and engineering initiatives for self-service API backend services and web front-end application.",
-        "Led the major front-end development of migrating the legacy web front-end and outdated architecture into a redesigned modern React front-end SPA architecture. (Led engineering initiative/architecture and developed most of the new code)",
-        "Led self-servicing API service (Node.js) refactor design.",
-        "Established web engineering patterns and practices.",
-        "Leading web engineering patterns and practices on a high-level for the team.",
-        "Worked with a product manager for conducting customer UX research for building user personas, UX initiatives/workflow.",
-        "Identified feature/experience gaps and led front-end UI/UX development for features.",
-        "Designed and developed a UI core processing engine that performs schema model composition, custom model abstraction, delta chunk rendering and dispatch using tree address structure, dynamic quality evaluation/rule-driven suggestion post-processing pipeline — avg. 500% faster on visualizing/rendering JSON configuration data of 40K lines.",
-        "Designed and developed a Journey Flow Builder with free-form canvas, drag-and-draw experience, automatic step flow routing with dynamic sequence index assignment, automatic flow error detection/correction, step flow route aggregation and route branching.",
-        "Designed and developed dynamic object renderers with automatic layout composition based on object type and module characteristics.",
-        "Designed and developed an in-house UI components based on design system and an overlay rendering component/context that consists of context menu, popover, modal, and window with dynamic depth and layout positioning."
-      ]
-    },
-    {
-      "id": "rally-2019",
-      "name": "Rally Rd. (RSE Markets)",
-      "url": "https://rallyrd.com/",
-      "title": "Software Engineer (Front-end/Full-stack)",
-      "period": "Oct 2019 — Jul 2020",
-      "location": "New York, NY",
-      "items": [
-        "Primary engineer and maintainer of the main React web front-end and Android PWA application codebase for its alternative asset investing web application.",
-        "Maintained/updated git repository strategy along with CI pipeline configuration to have succinct commit history, better branch merge/conflict management, and CI test hook integration (CircleCI).",
-        "Introduced a new network connection error handler for a better detection/user-bound error messaging",
-        "Developed a custom gesture-based carousel component for Web and Android for asset browsing experience",
-        "Developed a custom modal view controller optimized for Web/Android"
-      ]
-    },
-    {
+      {
+        "id": "alloy-2021",
+        "name": "Alloy",
+        "url": "https://www.alloy.com/",
+        "title": "Senior Software Engineer",
+        "period": "Oct 2021 - Sep 2022",
+        "location": "New York, NY",
+        "items": [
+          "Working in Core Platform team, leading efforts in enhancing web dashboard service and its front-end architecture/UX.",
+          "Working closely with Product Design to shape the streamlined UX by consulting component development and identifying front-end architecture requirements for product design needs.",
+          "Tech lead of the Front-end Modern Migration initiative. Delivered 90% faster Settings experience in a single quarter (Q2 '22) with the migration of over 30 legacy components.",
+          "Identified and mitigated potential blockers and items causing higher lead time/full cycle time using a mix of qualitative signals such as identifying the correct orders of execution, and quantitative weekly cycle trends.",
+          "Tech lead of the Front-end Service Architecture initiative. It decoupled the front-end compilation and deployment from the back-end service while continuing to support the hybrid architecture.",
+          "Primarily maintained the front-end pipeline and led the front-end build working group. Delivered the pipeline overhaul leading to build time reduction achievements, and runtime enhancements. (Up to 80%)"
+        ]
+      },
+      {
+        "id": "aetna-cvs-2020",
+        "name": "Aetna, Analytics & Behavior Change",
+        "url": "https://www.aetna.com/",
+        "title": "Senior Web Engineer",
+        "period": "Jul 2020 — Oct 2021",
+        "location": "New York, NY",
+        "items": [
+          "Led the web engineering team and engineering initiatives for self-service API backend services and web front-end application.",
+          "Led the major front-end development of migrating the legacy web front-end and outdated architecture into a redesigned modern React front-end SPA architecture. (Led engineering initiative/architecture and developed most of the new code)",
+          "Led self-servicing API service (Node.js) refactor design.",
+          "Established web engineering patterns and practices.",
+          "Leading web engineering patterns and practices on a high-level for the team.",
+          "Worked with a product manager for conducting customer UX research for building user personas, UX initiatives/workflow.",
+          "Identified feature/experience gaps and led front-end UI/UX development for features.",
+          "Designed and developed a UI core processing engine that performs schema model composition, custom model abstraction, delta chunk rendering and dispatch using tree address structure, dynamic quality evaluation/rule-driven suggestion post-processing pipeline — avg. 500% faster on visualizing/rendering JSON configuration data of 40K lines.",
+          "Designed and developed a Journey Flow Builder with free-form canvas, drag-and-draw experience, automatic step flow routing with dynamic sequence index assignment, automatic flow error detection/correction, step flow route aggregation and route branching.",
+          "Designed and developed dynamic object renderers with automatic layout composition based on object type and module characteristics.",
+          "Designed and developed an in-house UI components based on design system and an overlay rendering component/context that consists of context menu, popover, modal, and window with dynamic depth and layout positioning."
+        ]
+      },
+      {
+        "id": "rally-2019",
+        "name": "Rally Rd. (RSE Markets)",
+        "url": "https://rallyrd.com/",
+        "title": "Software Engineer (Front-end/Full-stack)",
+        "period": "Oct 2019 — Jul 2020",
+        "location": "New York, NY",
+        "items": [
+          "Primary engineer and maintainer of the main React web front-end and Android PWA application codebase for its alternative asset investing web application.",
+          "Maintained/updated git repository strategy along with CI pipeline configuration to have succinct commit history, better branch merge/conflict management, and CI test hook integration (CircleCI).",
+          "Introduced a new network connection error handler for a better detection/user-bound error messaging",
+          "Developed a custom gesture-based carousel component for Web and Android for asset browsing experience",
+          "Developed a custom modal view controller optimized for Web/Android"
+        ]
+      },
+      {
 
-      "id": "tiaa-2017",
-      "name": "thisisallabout",
-      "url": "",
-      "title": "Project Lead",
-      "period": "Sep 2017 — Sep 2019",
-      "location": "",
-      "items": [
-        "A non-profit project utilized data clustering for visualizing the vast amount of political text data efficiently.",
-        "Developed a natural language processing and data clustering pipeline for analyzing the tweets and news article data of top politicians, including President Donald Trump's own tweets in 2016.",
-        "Created visualization of the data clustering results in React with graphics.",
-        "Developed an automatic news clustering in Python, now open-sourced. https://github.com/toddoh/thisisallabout_backend",
-      ]
-    },
-    {
-      "id": "toastlabs-2015",
-      "name": "Toast Labs",
-      "url": "",
-      "title": "Engineering Lead/Founder",
-      "period": "Apr 2015 — Jul 2017",
-      "location": "Palo Alto, CA",
-      "items": [
-        "Led a technology startup company that developed and launched mobile applications, including “#Newsrooms”, which provided a solution for journalistic bias through an automatically generated news briefing.",
-        "Custom-designed hybrid UI framework for the products in JavaScript.",
-        "Developed a Node.js/MongoDB backend running a number of RESTful API endpoints and a custom natural language processing pipeline for “#Newsrooms”.",
-        "Designed the user experience of the products.",
-        "Custom-designed geofence engine for low-power location tracking in Objective-C: geofence target prediction/calculation based on real-time movement data"
-      ]
-    }
+        "id": "tiaa-2017",
+        "name": "thisisallabout",
+        "url": "",
+        "title": "Project Lead",
+        "period": "Sep 2017 — Sep 2019",
+        "location": "",
+        "items": [
+          "A non-profit project utilized data clustering for visualizing the vast amount of political text data efficiently.",
+          "Developed a natural language processing and data clustering pipeline for analyzing the tweets and news article data of top politicians, including President Donald Trump's own tweets in 2016.",
+          "Created visualization of the data clustering results in React with graphics.",
+          "Developed an automatic news clustering in Python, now open-sourced. https://github.com/toddoh/thisisallabout_backend"
+        ]
+      },
+      {
+        "id": "toastlabs-2015",
+        "name": "Toast Labs",
+        "url": "",
+        "title": "Engineering Lead/Founder",
+        "period": "Apr 2015 — Jul 2017",
+        "location": "Palo Alto, CA",
+        "items": [
+          "Led a technology startup company that developed and launched mobile applications, including “#Newsrooms”, which provided a solution for journalistic bias through an automatically generated news briefing.",
+          "Custom-designed hybrid UI framework for the products in JavaScript.",
+          "Developed a Node.js/MongoDB backend running a number of RESTful API endpoints and a custom natural language processing pipeline for “#Newsrooms”.",
+          "Designed the user experience of the products.",
+          "Custom-designed geofence engine for low-power location tracking in Objective-C: geofence target prediction/calculation based on real-time movement data"
+        ]
+      }
   ]
 }

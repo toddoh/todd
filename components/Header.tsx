@@ -31,7 +31,7 @@ export const Header = ({ miniHeader }: { miniHeader: boolean }) => {
             Todd Stonefield-Oh
           </Heading3>
           <Heading2>
-            Formerly a tech startup founder, a senior software engineer with experience in leading engineering initiatives with an understanding of user experience and financial technology.
+          Formerly a startup founder building mobile products, an engineering leader with experience in spearheading complex engineering initiatives with an understanding of user experience, product, and business values. A firm believer in intentional, purpose-driven mission and culture.
           </Heading2>
         </>
       )}
